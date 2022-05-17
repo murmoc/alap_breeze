@@ -37,10 +37,10 @@
         <div class="kerdoiv">
             <h2 class="kerdes">?</h2>
             <div class="valaszok">
-                <div class="valasz" class="v1">a</div>
-                <div class="valasz" class="v2">b</div>
-                <div class="valasz" class="v3">c</div>
-                <div class="valasz" class="v4">d</div>
+                <button class="valasz" class="v1" id="v1">a</button>
+                <button class="valasz" class="v2">b</button>
+                <button class="valasz" class="v3">c</button>
+                <button class="valasz" class="v4">d</button>
             </div>
         </div>
 
