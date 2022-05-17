@@ -5,13 +5,45 @@
         </h2>
     </x-slot>
 
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="csrf-token" content="{{ csrf_token() }}" /> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="../css/stilus.css" rel="stylesheet" type="text/css" />
+    <script src="../js/ajax.js"></script>
+    <script src="../js/teszt.js"></script>
+    <script src="../js/script.js"></script>
+    <title>Laravel</title>
+</head>
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 bg-white border-b border-gray-200">
+                <!-- <div class="p-6 bg-white border-b border-gray-200">
                     You're logged in!
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
+    <article>
+            <form action="">
+                <select name="kategoria" id="kategoria">
+                    <option value="1">Temészetvédelem</option>
+                    <option value="2"> Nem temészetvédelem</option>
+                </select>
+            </form><br><br>
+
+            <div class="kerdoiv">
+                <h2 class="kerdes">?</h2>
+                <div class="valaszok">
+                <div class="valasz" class="v1">a</div>
+                <div class="valasz" class="v2">b</div>
+                <div class="valasz" class="v3">c</div>
+                <div class="valasz" class="v4">d</div>
+                </div>
+            </div>
+
+        </article>
+
 </x-app-layout>
