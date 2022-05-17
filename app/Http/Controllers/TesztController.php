@@ -10,7 +10,7 @@ class TesztController extends Controller
 {
     public function index()
     {
-       /*  return DB::table('teszts')
+        return DB::table('teszts')
             ->join('kategorias', 'teszts.kategoriaId', '=', 'kategorias.id')
             ->select(
                 'teszts.id',
@@ -24,7 +24,7 @@ class TesztController extends Controller
                 'kategorias.id as kategoriaId'
             )
 
-            ->get(); */
-            return Teszt::all();
+            ->get();
+            /* return Teszt::all(); */
     }
 }
