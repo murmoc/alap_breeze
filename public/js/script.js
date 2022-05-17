@@ -21,6 +21,8 @@ $(function () {
 
     $(window).on("valasz", (event) => {
         console.log(event.detail.id);
+        v1.style.backgroundColor = 'green';
+        v1.style.color = 'white';
 
     });
     

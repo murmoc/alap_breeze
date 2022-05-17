@@ -31,10 +31,18 @@ class TesztKerdesek{
         this.tesztKategoria.html(adat.kategoria);
     }
     szinvalt(adat) {
-        let esemeny = new CustomEvent("valasz", {
+        /* let esemeny = new CustomEvent("valasz", {
             detail: this.adat,
         });
 
-        window.dispatchEvent(esemeny);
+        window.dispatchEvent(esemeny); */
+
+        const btn = document.getElementById('v1');
+
+        btn.addEventListener('click', function onClick() {
+        btn.style.backgroundColor = 'green';
+        btn.style.color = 'white';
+    });
     }
+    
 }
