@@ -7,7 +7,6 @@ $(function () {
 
     function tesztMegjelen(megjelenit) {
         console.log(megjelenit);
-        console.log(megjelenit);
         const szuloelem = $(".kerdoiv .valaszok");
         const sablonelem = $(".valaszok .valasz");
         szuloelem.empty();
@@ -22,7 +21,7 @@ $(function () {
 
     $(window).on("valasz", (event) => {
         console.log(event.detail.id);
-        
+
     });
     
 });
